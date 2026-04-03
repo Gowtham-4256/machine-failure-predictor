@@ -1,0 +1,79 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# Data files (IMPORTANT)
+# ==============================
+data/
+datasets/
+*.csv
+*.xlsx
+*.json
+
+# (optional: keep sample data)
+!data/sample.csv
+
+# ==============================
+# Machine Learning Models
+# ==============================
+*.h5
+*.hdf5
+*.keras
+*.pt
+*.pth
+*.joblib
+*.pkl
+
+# ==============================
+# Logs & outputs
+# ==============================
+logs/
+*.log
+outputs/
+results/
+
+# ==============================
+# IDE / Editor files
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# OS files
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Environment variables
+# ==============================
+.env
+
+# ==============================
+# Build / cache
+# ==============================
+build/
+dist/
+*.egg-info/
+
+# ==============================
+# Git LFS (optional handled separately)
+# ==============================
+# Keep .gitattributes tracked
